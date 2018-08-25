@@ -10,11 +10,15 @@ When you execute detect.sh and does not have everything installed, they will ask
 
 Start the script
 
-```./detect.sh start
+```
+./detect.sh start
+```
 
 Stop the script
 
-```./detect.sh stop
+```
+./detect.sh stop
+```
 
 NOTE: even if you stop it with CTRL+C its still running in the background, the only thing that stops is the action, but raspberry will still recolect info sent by the arduino.
 
